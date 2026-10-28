@@ -1,0 +1,316 @@
+{
+  "RequestUID": "Ark-Nucleus/WebUI",
+  "UUID": "DavidRostockServerInfo",
+  "Data": {
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+    "Props": {
+      "UUID": "MainTab",
+      "Fill": 1
+    },
+    "UICache": {
+      "SaveFile": "DavidRostock-MainTab"
+    },
+    "Tabs": [
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "STARTSEITE",
+          "Note": "Willkommen auf unserem ARK-Server",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Willkommen auf David Rostock ARK Server!",
+              "FontSize": 28,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Dein Abenteuer in ARK: Survival Ascended beginnt hier.",
+              "FontSize": 18,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Entdecke die Welt, zähme Dinosaurier, baue deine Basis und erlebe spannende Abenteuer mit anderen Überlebenden.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Bitte lies vor dem Spielen unsere Serverregeln. Viel Spaß und viel Erfolg beim Überleben!",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "SERVERREGELN",
+          "Note": "Fairness und respektvolles Miteinander",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "1. Behandle alle Mitspieler respektvoll.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "2. Cheats, Hacks und das Ausnutzen von Exploits sind verboten.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "3. Kein absichtliches Blockieren wichtiger Spawnpunkte oder Ressourcen.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "4. Vermeide unnötig große Bauten, die die Serverleistung beeinträchtigen.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "5. Befolge die Anweisungen der Serveradministration.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Hinweis: Diese Regeln sind ein Vorschlag und können vom Serverbetreiber angepasst werden.",
+              "FontSize": 13,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "SERVERINFOS",
+          "Note": "Einstellungen und wichtige Hinweise",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Server: David Rostock ARK Server",
+              "FontSize": 20,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Spiel: ARK: Survival Ascended",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Hosting: Nitrado",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "XP-, Zähmungs- und Zuchtraten: Bitte vom Admin ergänzen.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Karte, PvE/PvP und Neustartzeiten: Bitte vom Admin ergänzen.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Installierte Mods findest du im Ark-Nucleus-Menü unter INSTALLIERTE MODS.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
+        "Props": {
+          "Title": "HILFE & KONTAKT",
+          "Note": "Fragen und Unterstützung",
+          "Fill": 1
+        },
+        "UIItems": [
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Du hast Fragen oder benötigst Hilfe?",
+              "FontSize": 22,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Wende dich an die Serveradministration.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Discord-Einladung: Hier später deinen echten Einladungslink ergänzen.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Bei Problemen möglichst Spielernamen, Zeitpunkt und eine kurze Beschreibung angeben.",
+              "FontSize": 16,
+              "Padding": [
+                8,
+                8,
+                8,
+                8
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
