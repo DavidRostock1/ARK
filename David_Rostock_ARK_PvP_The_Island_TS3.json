@@ -507,7 +507,33 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "TeamSpeak 3: davidrostock.teamspeak.me",
+              "Text": "TEAMSPEAK 3 – JETZT VERBINDEN",
+              "FontSize": 16,
+              "Padding": [
+                10,
+                8,
+                10,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "ts3server://davidrostock.teamspeak.me",
+              "FontSize": 19,
+              "Padding": [
+                10,
+                8,
+                10,
+                8
+              ]
+            }
+          },
+          {
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+            "Props": {
+              "Text": "Falls der Link im Spiel nicht anklickbar ist: TeamSpeak 3 öffnen und unter Verbindungen die Adresse davidrostock.teamspeak.me eingeben.",
               "FontSize": 16,
               "Padding": [
                 10,
