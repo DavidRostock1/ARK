@@ -61,7 +61,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Gemeinsam überleben. Gemeinsam bauen. Gemeinsam Abenteuer erleben.",
+              "Text": "PvP auf The Island: Überlebe, baue deine Basis und verteidige deinen Stamm!",
               "FontSize": 16,
               "Padding": [
                 10,
@@ -253,7 +253,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Diese Regeln sind ein Vorschlag. Passe sie an die tatsächlichen Serverregeln an.",
+              "Text": "Regelvorschläge: Bitte vor Veröffentlichung mit den tatsächlichen PvP-Regeln abgleichen.",
               "FontSize": 16,
               "Padding": [
                 10,
@@ -354,7 +354,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Spielmodus: [PvE oder PvP eintragen]",
+              "Text": "Spielmodus: PvP",
               "FontSize": 16,
               "Padding": [
                 10,
@@ -367,7 +367,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Karte: [Map eintragen]",
+              "Text": "Karte: The Island",
               "FontSize": 16,
               "Padding": [
                 10,
@@ -507,7 +507,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Discord: [Einladungslink ergänzen]",
+              "Text": "TeamSpeak 3: davidrostock.teamspeak.me",
               "FontSize": 16,
               "Padding": [
                 10,
@@ -520,7 +520,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Ankündigungen und Wartungen: [Info-Kanal ergänzen]",
+              "Text": "Für Fragen und Absprachen: Besuche unseren TeamSpeak-3-Server.",
               "FontSize": 16,
               "Padding": [
                 10,
