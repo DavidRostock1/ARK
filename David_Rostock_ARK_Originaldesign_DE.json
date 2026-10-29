@@ -809,7 +809,7 @@
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
             "Props": {
-              "Text": "Diese Regeln sind Vorschläge und müssen vom Admin bestätigt werden.",
+              "Text": "",
               "FontSize": 22,
               "Justification": "Center",
               "Color": [
