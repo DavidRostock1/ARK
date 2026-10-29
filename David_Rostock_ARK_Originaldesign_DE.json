@@ -17,131 +17,9 @@
           "Title": "STARTSEITE",
           "Note": "David Rostock ARK Server | PvP | The Island",
           "Fill": 1,
-          "Image": "https://raw.githubusercontent.com/DavidRostock1/ARK/main/ARK%20David%20Rostock1.png?utm_source=chatgpt.com"
+          "Image": "https://raw.githubusercontent.com/DavidRostock1/ARK/main/ARK%20David%20Rostock1.png"
         },
         "UIItems": [
-          {
-            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-            "Props": {
-              "Fill": 1
-            },
-            "UIItems": [
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                "Props": {
-                  "Fill": 1,
-                  "Padding": [
-                    30,
-                    30,
-                    30,
-                    30
-                  ]
-                },
-                "UIItems": []
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                "Props": {
-                  "VerticalAlignment": 2,
-                  "Padding": [
-                    30,
-                    30,
-                    30,
-                    30
-                  ]
-                },
-                "UIItems": [
-                  {
-                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                    "Props": {
-                      "Fill": 2,
-                      "VerticalAlignment": 2,
-                      "Padding": [
-                        10,
-                        10,
-                        10,
-                        10
-                      ]
-                    },
-                    "UIItems": [
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                          "Text": "WILLKOMMEN AUF DAVID ROSTOCK ARK",
-                          "FontSize": 32,
-                          "Padding": [
-                            30,
-                            160,
-                            30,
-                            30
-                          ]
-                        }
-                      },
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                        "Props": {
-                          "Text": "PvP auf The Island - Überleben, bauen, kämpfen!",
-                          "FontSize": 16,
-                          "Padding": [
-                            5,
-                            5,
-                            5,
-                            5
-                          ]
-                        }
-                      },
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
-                        "UIItems": [
-                          {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                            "Props": {
-                              "Label": "TeamSpeak 3",
-                              "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                              ]
-                            },
-                            "OnClickEvent": {
-                              "Url": "ts3server://davidrostock.teamspeak.me"
-                            }
-                          },
-                          {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                            "Props": {
-                              "Label": "Serverregeln ansehen",
-                              "Padding": [
-                                5,
-                                5,
-                                5,
-                                5
-                              ]
-                            },
-                            "Modal": {
-                              "Props": {
-                                "Title": "Unsere PvP-Regeln"
-                              },
-                              "UIItems": [
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                  "Props": {
-                                    "Text": "Fair spielen: Kein Cheaten, keine Exploits, kein Beleidigen. Weitere Regeln im Tab REGELN.",
-                                    "FontSize": 15
-                                  }
-                                }
-                              ]
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          },
           {
             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
             "Props": {
@@ -493,7 +371,7 @@
                           {
                             "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
                             "Props": {
-                              "Label": "Mehr erfahren",
+                              "Label": "WILLKOMMEN AUF DAVID ROSTOCK ARK",
                               "Padding": [
                                 5,
                                 5,
