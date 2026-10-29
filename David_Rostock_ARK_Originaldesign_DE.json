@@ -70,10 +70,10 @@
                           "Text": "WILLKOMMEN AUF DAVID ROSTOCK ARK",
                           "FontSize": 32,
                           "Padding": [
-                            5,
-                            5,
-                            5,
-                            5
+                            30,
+                            30,
+                            30,
+                            30
                           ]
                         }
                       },
