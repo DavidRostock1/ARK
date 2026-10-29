@@ -57,10 +57,10 @@
                       "Fill": 2,
                       "VerticalAlignment": 2,
                       "Padding": [
-                        20,
-                        20,
-                        20,
-                        20
+                        10,
+                        10,
+                        10,
+                        10
                       ]
                     },
                     "UIItems": [
@@ -71,7 +71,7 @@
                           "FontSize": 32,
                           "Padding": [
                             30,
-                            160,
+                            200,
                             30,
                             30
                           ]
