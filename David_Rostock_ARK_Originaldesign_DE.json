@@ -57,10 +57,10 @@
                       "Fill": 2,
                       "VerticalAlignment": 2,
                       "Padding": [
-                        10,
-                        10,
-                        10,
-                        10
+                        20,
+                        20,
+                        20,
+                        20
                       ]
                     },
                     "UIItems": [
