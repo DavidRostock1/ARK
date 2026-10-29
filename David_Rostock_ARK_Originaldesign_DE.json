@@ -783,7 +783,7 @@
         "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Category_v1.DU_Panel_Category_v1_C",
         "Props": {
           "Title": "REGELN",
-          "Note": "Vorläufige PvP-Regeln - vom Admin prüfen",
+          "Note": "",
           "Fill": 1
         },
         "UIItems": [
