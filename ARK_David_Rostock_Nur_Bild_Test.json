@@ -1,0 +1,26 @@
+{
+  "RequestUID": "Ark-Nucleus/WebUI",
+  "UUID": "DavidRostockBildTest",
+  "Data": {
+    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Tabbed_v1.DU_Panel_Tabbed_v1_C",
+    "Props": {
+      "UUID": "MainTab",
+      "Fill": 1
+    },
+    "UICache": {
+      "SaveFile": "DavidRostockBildTest-MainTab"
+    },
+    "Tabs": [
+      {
+        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+        "Props": {
+          "Title": "DAVID ROSTOCK",
+          "Note": "ARK SERVER – BILDTEST",
+          "Fill": 1,
+          "Image": "https://raw.githubusercontent.com/DavidRostock1/ARK/main/ARK%20David%20Rostock.png"
+        },
+        "UIItems": []
+      }
+    ]
+  }
+}
