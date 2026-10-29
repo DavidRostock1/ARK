@@ -21,64 +21,51 @@
         },
         "UIItems": [
           {
-            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
             "Props": {
-              "HorizontalAlignment": 0,
-              "Padding": [
-                5,
-                5,
-                5,
-                5
-              ]
+              "Fill": 1
             },
             "UIItems": [
               {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                 "Props": {
-                  "VerticalAlignment": 0,
-                  "Fill": 1,
-                  "Color": [
-                    0.3,
-                    0.2,
-                    0.5
-                  ],
+                  "Text": "",
+                  "Fill": 1
+                }
+              },
+              {
+                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                "Props": {
+                  "HorizontalAlignment": 0,
                   "Padding": [
-                    10,
-                    10,
-                    10,
-                    10
+                    5,
+                    5,
+                    5,
+                    5
                   ]
                 },
                 "UIItems": [
                   {
-                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                     "Props": {
+                      "VerticalAlignment": 0,
+                      "Fill": 1,
+                      "Color": [
+                        0.3,
+                        0.2,
+                        0.5
+                      ],
                       "Padding": [
-                        5,
-                        5,
-                        5,
-                        5
+                        10,
+                        10,
+                        10,
+                        10
                       ]
                     },
                     "UIItems": [
                       {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                          "Width": 120,
-                          "Height": 120,
-                          "Padding": [
-                            5,
-                            5,
-                            5,
-                            5
-                          ]
-                        }
-                      },
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                        "Props": {
-                          "Fill": 1,
                           "Padding": [
                             5,
                             5,
@@ -88,38 +75,23 @@
                         },
                         "UIItems": [
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
                             "Props": {
-                              "Text": "Was erwartet dich?",
-                              "FontSize": 14,
-                              "Justification": "Center",
+                              "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                              "Width": 120,
+                              "Height": 120,
                               "Padding": [
-                                0,
-                                0,
-                                0,
+                                5,
+                                5,
+                                5,
                                 5
                               ]
                             }
                           },
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
                             "Props": {
-                              "Text": "Ein PvP-Abenteuer auf The Island mit Dinosauriern, Basenbau und spannenden Kämpfen.",
-                              "FontSize": 11,
-                              "Justification": "Center",
                               "Fill": 1,
-                              "Padding": [
-                                0,
-                                0,
-                                0,
-                                5
-                              ]
-                            }
-                          },
-                          {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                            "Props": {
-                              "Label": "Mehr erfahren",
                               "Padding": [
                                 5,
                                 5,
@@ -127,84 +99,111 @@
                                 5
                               ]
                             },
-                            "Modal": {
-                              "Props": {
-                                "Title": "David Rostock ARK Server"
-                              },
-                              "UIItems": [
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                  "Props": {
-                                    "Text": "Serverdetails",
-                                    "FontSize": 15,
-                                    "Fill": 1
-                                  }
-                                },
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                  "Props": {
-                                    "Label": "$$Ark-Nucleus$:$OK_BTN"
-                                  },
-                                  "OnClickEvent": {
-                                    "EventUID": "CloseModal"
-                                  }
+                            "UIItems": [
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "Was erwartet dich?",
+                                  "FontSize": 14,
+                                  "Justification": "Center",
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
                                 }
-                              ]
-                            }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "Ein PvP-Abenteuer auf The Island mit Dinosauriern, Basenbau und spannenden Kämpfen.",
+                                  "FontSize": 11,
+                                  "Justification": "Center",
+                                  "Fill": 1,
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "Mehr erfahren",
+                                  "Padding": [
+                                    5,
+                                    5,
+                                    5,
+                                    5
+                                  ]
+                                },
+                                "Modal": {
+                                  "Props": {
+                                    "Title": "David Rostock ARK Server"
+                                  },
+                                  "UIItems": [
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                      "Props": {
+                                        "Text": "Serverdetails",
+                                        "FontSize": 15,
+                                        "Fill": 1
+                                      }
+                                    },
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                      "Props": {
+                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
+                                      },
+                                      "OnClickEvent": {
+                                        "EventUID": "CloseModal"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
                           }
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                "Props": {
-                  "VerticalAlignment": 0,
-                  "Fill": 1,
-                  "Color": [
-                    0,
-                    0.7,
-                    0.5
-                  ],
-                  "Padding": [
-                    10,
-                    10,
-                    10,
-                    10
-                  ]
-                },
-                "UIItems": [
+                  },
                   {
-                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                     "Props": {
+                      "VerticalAlignment": 0,
+                      "Fill": 1,
+                      "Color": [
+                        0,
+                        0.7,
+                        0.5
+                      ],
                       "Padding": [
-                        5,
-                        5,
-                        5,
-                        5
+                        10,
+                        10,
+                        10,
+                        10
                       ]
                     },
                     "UIItems": [
                       {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                          "Width": 120,
-                          "Height": 120,
-                          "Padding": [
-                            5,
-                            5,
-                            5,
-                            5
-                          ]
-                        }
-                      },
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                        "Props": {
-                          "Fill": 1,
                           "Padding": [
                             5,
                             5,
@@ -214,38 +213,23 @@
                         },
                         "UIItems": [
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
                             "Props": {
-                              "Text": "Karte: The Island | Modus: PvP | Hosting: Nitrado",
-                              "FontSize": 14,
-                              "Justification": "Center",
+                              "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                              "Width": 120,
+                              "Height": 120,
                               "Padding": [
-                                0,
-                                0,
-                                0,
+                                5,
+                                5,
+                                5,
                                 5
                               ]
                             }
                           },
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
                             "Props": {
-                              "Text": "Kontakt & Hilfe",
-                              "FontSize": 11,
-                              "Justification": "Center",
                               "Fill": 1,
-                              "Padding": [
-                                0,
-                                0,
-                                0,
-                                5
-                              ]
-                            }
-                          },
-                          {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                            "Props": {
-                              "Label": "Mehr erfahren",
                               "Padding": [
                                 5,
                                 5,
@@ -253,84 +237,111 @@
                                 5
                               ]
                             },
-                            "Modal": {
-                              "Props": {
-                                "Title": "David Rostock ARK Server"
-                              },
-                              "UIItems": [
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                  "Props": {
-                                    "Text": "Besuche unseren TeamSpeak 3 Server: davidrostock.teamspeak.me",
-                                    "FontSize": 15,
-                                    "Fill": 1
-                                  }
-                                },
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                  "Props": {
-                                    "Label": "$$Ark-Nucleus$:$OK_BTN"
-                                  },
-                                  "OnClickEvent": {
-                                    "EventUID": "CloseModal"
-                                  }
+                            "UIItems": [
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "Karte: The Island | Modus: PvP | Hosting: Nitrado",
+                                  "FontSize": 14,
+                                  "Justification": "Center",
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
                                 }
-                              ]
-                            }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "Kontakt & Hilfe",
+                                  "FontSize": 11,
+                                  "Justification": "Center",
+                                  "Fill": 1,
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "Mehr erfahren",
+                                  "Padding": [
+                                    5,
+                                    5,
+                                    5,
+                                    5
+                                  ]
+                                },
+                                "Modal": {
+                                  "Props": {
+                                    "Title": "David Rostock ARK Server"
+                                  },
+                                  "UIItems": [
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                      "Props": {
+                                        "Text": "Besuche unseren TeamSpeak 3 Server: davidrostock.teamspeak.me",
+                                        "FontSize": 15,
+                                        "Fill": 1
+                                      }
+                                    },
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                      "Props": {
+                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
+                                      },
+                                      "OnClickEvent": {
+                                        "EventUID": "CloseModal"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
                           }
                         ]
                       }
                     ]
-                  }
-                ]
-              },
-              {
-                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
-                "Props": {
-                  "VerticalAlignment": 0,
-                  "Fill": 1,
-                  "Color": [
-                    0,
-                    0.2,
-                    0.5
-                  ],
-                  "Padding": [
-                    10,
-                    10,
-                    10,
-                    10
-                  ]
-                },
-                "UIItems": [
+                  },
                   {
-                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
+                    "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_Border_v1.DU_Panel_Border_v1_C",
                     "Props": {
+                      "VerticalAlignment": 0,
+                      "Fill": 1,
+                      "Color": [
+                        0,
+                        0.2,
+                        0.5
+                      ],
                       "Padding": [
-                        5,
-                        5,
-                        5,
-                        5
+                        10,
+                        10,
+                        10,
+                        10
                       ]
                     },
                     "UIItems": [
                       {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
+                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_HorizontalBox_v1.DU_Panel_HorizontalBox_v1_C",
                         "Props": {
-                          "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
-                          "Width": 120,
-                          "Height": 120,
-                          "Padding": [
-                            5,
-                            5,
-                            5,
-                            5
-                          ]
-                        }
-                      },
-                      {
-                        "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
-                        "Props": {
-                          "Fill": 1,
                           "Padding": [
                             5,
                             5,
@@ -340,38 +351,23 @@
                         },
                         "UIItems": [
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_Image_v1.DU_View_Image_v1_C",
                             "Props": {
-                              "Text": "",
-                              "FontSize": 14,
-                              "Justification": "Center",
+                              "Image": "/Ark-Nucleus/Assets/Materials/M_NewLogo.M_NewLogo",
+                              "Width": 120,
+                              "Height": 120,
                               "Padding": [
-                                0,
-                                0,
-                                0,
+                                5,
+                                5,
+                                5,
                                 5
                               ]
                             }
                           },
                           {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Panels/DU_Panel_VerticalBox_v1.DU_Panel_VerticalBox_v1_C",
                             "Props": {
-                              "Text": "",
-                              "Justification": "Center",
-                              "FontSize": 11,
                               "Fill": 1,
-                              "Padding": [
-                                0,
-                                0,
-                                0,
-                                5
-                              ]
-                            }
-                          },
-                          {
-                            "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                            "Props": {
-                              "Label": "WILLKOMMEN AUF DAVID ROSTOCK ARK",
                               "Padding": [
                                 5,
                                 5,
@@ -379,30 +375,100 @@
                                 5
                               ]
                             },
-                            "Modal": {
-                              "Props": {
-                                "Title": "David Rostock ARK Server"
-                              },
-                              "UIItems": [
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
-                                  "Props": {
-                                    "Text": "",
-                                    "FontSize": 15,
-                                    "Fill": 1
-                                  }
-                                },
-                                {
-                                  "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
-                                  "Props": {
-                                    "Label": "$$Ark-Nucleus$:$OK_BTN"
-                                  },
-                                  "OnClickEvent": {
-                                    "EventUID": "CloseModal"
-                                  }
+                            "UIItems": [
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "TEAMSPEAK 3",
+                                  "FontSize": 14,
+                                  "Justification": "Center",
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
                                 }
-                              ]
-                            }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                "Props": {
+                                  "Text": "Kontakt & Hilfe: davidrostock.teamspeak.me",
+                                  "Justification": "Center",
+                                  "FontSize": 11,
+                                  "Fill": 1,
+                                  "Padding": [
+                                    0,
+                                    0,
+                                    0,
+                                    5
+                                  ],
+                                  "Color": [
+                                    1,
+                                    0.9568627450980393,
+                                    0.8392156862745098,
+                                    1
+                                  ]
+                                }
+                              },
+                              {
+                                "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                "Props": {
+                                  "Label": "TEAMSPEAK 3 – INFOS",
+                                  "Padding": [
+                                    5,
+                                    5,
+                                    5,
+                                    5
+                                  ]
+                                },
+                                "Modal": {
+                                  "Props": {
+                                    "Title": "TeamSpeak 3 | David Rostock ARK"
+                                  },
+                                  "UIItems": [
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
+                                      "Props": {
+                                        "Text": "Unser TeamSpeak 3 Server: davidrostock.teamspeak.me\nÖffne TeamSpeak 3 und verbinde dich mit dieser Serveradresse.\nHier bekommst du Hilfe und kannst mit anderen Spielern sprechen.",
+                                        "FontSize": 15,
+                                        "Fill": 1
+                                      }
+                                    },
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                      "Props": {
+                                        "Label": "DIREKT MIT TEAMSPEAK 3 VERBINDEN",
+                                        "Padding": [
+                                          10,
+                                          10,
+                                          10,
+                                          10
+                                        ]
+                                      },
+                                      "OnClickEvent": {
+                                        "Url": "ts3server://davidrostock.teamspeak.me"
+                                      }
+                                    },
+                                    {
+                                      "Widget": "/Ark-Nucleus/SharedContent/Widgets/Action/DU_Action_Button_v1.DU_Action_Button_v1_C",
+                                      "Props": {
+                                        "Label": "$$Ark-Nucleus$:$OK_BTN"
+                                      },
+                                      "OnClickEvent": {
+                                        "EventUID": "CloseModal"
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
                           }
                         ]
                       }
