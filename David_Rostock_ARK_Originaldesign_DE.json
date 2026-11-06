@@ -1547,7 +1547,8 @@
               {
                 "Widget": "/Ark-Nucleus/SharedContent/Widgets/Views/DU_View_SimpleText_v1.DU_View_SimpleText_v1_C",
                 "Props": {
-                  "Text": "Falls der Button im Spiel nicht funktioniert, gib die Adresse manuell in TeamSpeak 3 ein.",
+                  "Text": "Falls der Button im Spiel nicht funktioniert, gib die Adresse manuell in TeamSpeak 3 ein."
+                  "Text": "Komm auf den TS3 gehe in den Chennel. Support schreibe eine Nachicht an den Boot mit dem Befehl !ark und gehe in den ARk chennel.",
                   "FontSize": 13
                 }
               }
